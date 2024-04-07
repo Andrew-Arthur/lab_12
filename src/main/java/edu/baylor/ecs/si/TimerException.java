@@ -23,9 +23,10 @@ public class TimerException extends Exception {
      * @param   message   the detail message. The detail message is saved for
      *          later retrieval by the {@link #getMessage()} method.
      */
-    // TODO Q2 why do we need to override this?
+
+    //TODO Q2 why do we need to override this?
     public TimerException(String message) {
-        super(message);
+      super(message);
     }
 
     /**
